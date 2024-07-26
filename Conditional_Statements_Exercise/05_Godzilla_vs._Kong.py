@@ -9,7 +9,6 @@ if extras_num > 150:
 money_needed = movie_decor + extras_num * clothing_price
 money_left = budget - money_needed
 
-# ~My Type
 if money_needed > budget:
     print("Not enough money!")
     print(f"Wingard needs {money_needed - budget :.2f} leva more.")
