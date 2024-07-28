@@ -1,4 +1,3 @@
-
 days = int(input()) - 1
 room_type = input()
 evaluation = input()
